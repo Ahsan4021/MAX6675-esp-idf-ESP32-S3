@@ -83,26 +83,27 @@ if (res & (1 << 2)) {
 ```
 
 
-##🧪 Example Serial Output
+## 🧪 Example Serial Output
 SPI res = 104 temp = 26.00 °C
 SPI res = 112 temp = 28.00 °C
 E (12345) main: Sensor is not connected
+---
 
-
-##🎯 Motivation
+## 🎯 Motivation
 It is hard to get a working example of a raw SPI device using ESP-IDF, especially with sensors like the MAX6675. This project provides a clean, working solution with direct SPI interaction — no extra libraries required.
 
 Please feel free to fork, adapt, improve, or contribute!
-
-##🔄 Compatibility
+---
+## 🔄 Compatibility
 
 ESP32 Variant	Status	Notes
 ESP32-S3	✅ Tested	Uses SPI3_HOST
 ESP32-C3	⚠️ Untested	May require different SPI host
 ESP32-S2	⚠️ Untested	Update host and GPIOs
 ESP32 (Original)	⚠️ Untested	Use SPI2_HOST and update pins
+---
 
-##📦 Dependencies
+## 📦 Dependencies
 ESP-IDF v4.x or later
 
 No external libraries required
