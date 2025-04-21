@@ -110,9 +110,9 @@ No external libraries required
 
 Uses standard ESP-IDF SPI and FreeRTOS components
 
-##📜 License
+## 📜 License
 MIT License
-
+---
 Made with ❤️ to help developers integrate MAX6675 with ESP32 the low-level way.
 
 
